@@ -1,7 +1,7 @@
 {
   "name": "FakeLogonUI",
   "productName": "FakeLogonUI",
-  "description": "My Electron application description",
+  "description": "A not Good app",
   "keywords": [],
   "main": "./main.js",
   "version": "1.0.0",
