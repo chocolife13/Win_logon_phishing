@@ -1,6 +1,5 @@
 from PIL import Image, ImageTk
 import tkinter as tk
-import keyboard
 import os
 
 def ok():
@@ -47,6 +46,9 @@ def start():
     image_loading.pack(fill="both", expand=True)
     
     
+    label_User = tk.Label(main, text="Autre utilisateur", font=("Arial", 20))
+    label_User.place(relx=0.5, rely=0.5)
+
     main.bind("d" + "e" + "v", GET_OUT)
 
 
